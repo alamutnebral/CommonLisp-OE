@@ -1,3 +1,3 @@
-#### OpenEdu FPBC course
+#### OpenEdu FPBC
 
 + [Overview](https://github.com/ostatkivoli/CommonLisp_OE/wiki/Overview)
