@@ -1,3 +1,5 @@
+; #[10 20] -> (11 13 17 19)
+
 (defun factr (n &optional (res 1)) ;for Wilson's test
 	(if (or (= n 0) (= n 1))
 		res
@@ -19,4 +21,4 @@
 					(loop for x from (first lst) to (second lst)
 						when (primep x) collect x))))))
 
-(print #[10 20])
+(print #[10 20]) ;(11 13 17 19)
